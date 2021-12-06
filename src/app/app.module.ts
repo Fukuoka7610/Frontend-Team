@@ -5,6 +5,7 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { TeamPageComponent } from './team-page/team-page.component';
 import { MembersPageComponent } from './members-page/members-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { MembersPageComponent } from './members-page/members-page.component';
     NavbarComponent,
     TeamPageComponent,
     MembersPageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
