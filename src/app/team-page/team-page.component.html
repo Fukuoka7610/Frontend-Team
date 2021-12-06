@@ -1,0 +1,62 @@
+<div class="card bg-dark text-white">
+  <img src="./assets/img/phone-cover.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="name-org">GDSC Waseda</h5>
+    <h2 class="name-team">Frontend Team</h2>
+    <p class="card-text">
+      "We must hold our organizations accountable where they control <br>
+      the doors by demanding clarity and tranparency around <br>
+      succession planning." - Ruth Porat, CFO at Alptha
+    </p>
+  </div>
+</div>
+
+<div class="flex">
+  <img src="./assets/img/placeholder-300×225.jpeg" class="card-img-2" alt="...">
+    <h1 class="flex-title">Who are we ?<br>
+      <p class="flex-subtext" style="text-align: left;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <ul>
+        <li class="flex-array">Benefit of Feature</li>
+        <li class="flex-array">Benefit of Feature</li>
+        <li class="flex-array">Benefit of Feature</li>
+      </ul>
+    </h1>
+</div>
+
+
+<h1 class="members">Members</h1>
+
+<h3 class="leader">Frontend Team Lead</h3>
+
+<a [routerLink]="['/members']">
+  <div class="card-leader mx-auto" style="width: 17rem;">
+    <img src="./assets/img/placeholder-300×225.jpeg" class="card-img-top" alt="...">
+    <div class="card-leader-body border">
+      <p class="card-text">First Name Last Name</p>
+    </div>
+  </div>
+</a> 
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let row of members.any; let i = index" class="col-sm">
+      <div *ngFor="let col of row; let j = index">
+        <div class="space"></div>
+      <a [routerLink]="['/members']">
+        <div class="card mx-auto" style="width: 14rem; height: 14.7rem;">
+          <img src="./assets/img/placeholder-300×225.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">First Name Last Name</p>
+          </div>
+        </div>
+      </a> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
