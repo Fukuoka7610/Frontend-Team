@@ -1,0 +1,106 @@
+.card-img{
+    height: 450px;
+}
+
+.name-org{
+    font-family: -apple-system-body;
+    padding-top: 145px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.name-team{
+    font-family: -apple-system-body;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-text{
+    font-family: -apple-system-body;
+    padding: 10px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-img-2{
+    padding-top: 215px;
+    padding-left: 100px;
+    height: 50%;
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-title{
+    font-family: -apple-system-body;
+    font-size: 3.5vw;
+    font-weight: bold;
+    padding-top: 210px;
+    padding-left: 75px;
+    text-align: left;
+    width: 50%;
+}
+
+.flex-title>p{
+    font-size: 3vh;
+    font-weight: 100;
+    font-family: -apple-system-body;
+    padding-top: 50px;
+}
+
+.flex-title>ul{
+    font-size: 3vh;
+    font-weight: 100;
+    font-family: -apple-system-body;
+    padding-top: 30px;
+}
+
+.flex-array{
+    padding-top: 50px;
+    font-family: -apple-system-body;
+    padding-top: 30px;
+}
+
+.members{
+    font-family: -apple-system-body;
+    font-weight: bold;
+    padding-top: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.leader{
+    font-family: -apple-system-body;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-leader{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.card-leader-body{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 4rem;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.space{
+    padding-top: 40px;
+}
